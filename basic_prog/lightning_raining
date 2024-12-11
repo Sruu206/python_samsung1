@@ -1,0 +1,8 @@
+inp=input('Enter a String (If it is raining type Y)')
+inp1=input("Enter a another String(if it is lightning type L)")
+if(inp=="Y" and inp1=="L"):
+    print("Don\'t go out it\'s lightning and also raining")
+elif(inp=="Y" or inp1=="L"):
+    print("Go with a umbrella")
+else:
+    print("Go without a umbrella")

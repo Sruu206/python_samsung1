@@ -1,5 +1,5 @@
-n=input("Enter a string")
+n=input("Enter a string(If yes type It's Raining)")
 if (n=="It\'s Raining"):
-    print("Go with a umbrella or Play in rain")
+    print("Go with a umbrella")
 else:
-    print("Not Raining")
+    print("Go without a umbrella")

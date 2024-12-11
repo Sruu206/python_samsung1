@@ -1,0 +1,22 @@
+n=input("Enter the present weather:(Is it sunny(yes/no)")
+if(n=="yes"):
+    n1=input("Is it hot outside? (yes/no)")
+    if(n1=="yes"):
+        print("Go out with jacket")
+    else:
+        print("Go out as ur wish")
+else:
+    n2=input("Is it raining(yes/no)")
+    if(n2=="yes"):
+        print("Go out with umbrella or Play in water")
+        n3=input("Is it lightning also(yes/no)")
+        if(n3==yes):
+            print("Dont go out its lightning and also raining")
+        else:
+            print("Its only raining so either go out with umbrella or play in water ")
+    elif(n2=="no"):
+        n4=input("Is it lightning also(yes/no)")
+        if(n4==yes):
+            print("Dont go out its lightning ")
+    else:
+        print("Go out as ur wish")
