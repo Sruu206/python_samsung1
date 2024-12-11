@@ -1,0 +1,16 @@
+name=input('Enter Emloyee name:')
+id=int(input("Enter Employee id:"))
+salary=float(input("Enter monthly salary of employee:"))
+Special_allowance=float(input("Enter special allowanes of employee:"))
+bonus=float(input('Enter bonus percentage as % of Gross Salary:'))
+gross_monthly_salary=salary+Special_allowance
+Annual_gross_salary=(gross_monthly_salary*12)+(bonus/100)*(12*gross_monthly_salary)
+print("The Employee Details:")
+#print("Name:",name,"\nEmplyee id:",id,"\nEmployee Salary:",salary,"\nSpecial Allowances:",Special_allowance,"\nBonus:",bonus,"\nGrosss Monthly Salary:",gross_monthly_salary,"\nAnnual gross Salary:",Annual_gross_salary)
+print('%-4s %-12s %-15s %-17s %-5s %-14s %-13s'%("ID","NAME","SALARY","SPECIAL_ALLOWANCES","BONUS","MONTHLY_SALARY","ANNUAL_SALARY"))
+print('-'*90)
+print('%-4d %-12s %-15.2f %-18.2f %-6.2f %-15.2f %-.2f'%(id,name,salary,Special_allowance,bonus,gross_monthly_salary,Annual_gross_salary))
+SD=50000
+taxable_income=Annual_gross_salary-SD
+print(f'Standard Deduction:{SD}')
+print(f'Taxable_salary {taxable_income}')

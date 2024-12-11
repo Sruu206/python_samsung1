@@ -1,4 +1,4 @@
-n=input("Enter a string(If yes type It's Raining)")
+n=input("Enter a string(If yes type It's Raining)").strip()
 if (n=="It\'s Raining"):
     print("Go with a umbrella")
 else:
